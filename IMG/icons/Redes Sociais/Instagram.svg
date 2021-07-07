@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="35" viewBox="0 0 39 35">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_102" data-name="Retângulo 102" width="39" height="35" transform="translate(997 2944)" fill="#ffc00c"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_de_máscara_14" data-name="Grupo de máscara 14" transform="translate(-997 -2944)" clip-path="url(#clip-path)">
+    <path id="instagram" d="M31.7,24.457A7.241,7.241,0,0,1,24.457,31.7H10.543A7.241,7.241,0,0,1,3.3,24.457V10.542A7.241,7.241,0,0,1,10.543,3.3H24.457A7.241,7.241,0,0,1,31.7,10.542V24.457ZM35,10.542A10.543,10.543,0,0,0,24.456,0H10.544A10.542,10.542,0,0,0,0,10.542V24.457A10.544,10.544,0,0,0,10.544,35H24.456A10.544,10.544,0,0,0,35,24.456ZM17.559,23.262A5.537,5.537,0,1,1,23.1,17.725a5.543,5.543,0,0,1-5.537,5.537Zm0-14.179A8.643,8.643,0,1,0,26.2,17.725a8.653,8.653,0,0,0-8.644-8.643Zm9.148-2.639A2.058,2.058,0,1,0,28.765,8.5a2.058,2.058,0,0,0-2.058-2.058Z" transform="translate(999 2944)" fill="#fec63e"/>
+  </g>
+</svg>
