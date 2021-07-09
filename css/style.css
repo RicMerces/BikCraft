@@ -181,18 +181,19 @@ nav ul li a:hover{
     padding: 35px;
 }
 
+/* Botao de saber mais */
 
-.products .AreaDeAcesso {
+.AreaDeAcesso {
     text-align: center;
 }
 
-.products .AreaDeAcesso p{
+.AreaDeAcesso p{
     margin-top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: -10px;
 }
 
-.products .AreaDeAcesso .btn{
+.AreaDeAcesso .btn{
     background:none;
     border:3px #FFC00C solid;
     height: 50px;
@@ -203,7 +204,7 @@ nav ul li a:hover{
     cursor: pointer;
 }
 
-.products .AreaDeAcesso .btn:hover{
+.AreaDeAcesso .btn:hover{
     background:#FFC00C;
     color: #ffff;
 }
@@ -211,7 +212,9 @@ nav ul li a:hover{
 /* Portfolio */
 
 .Portfolio{
+    margin-top: 60px;
     background-color: #000;
+    color: #fff;
 }
 
 .Portfolio .secundary{
@@ -219,6 +222,10 @@ nav ul li a:hover{
 }
 .Portfolio .secundary:after{
     background: #FFC00C;
+}
+.Portfolio li {
+    display: inline-block;
+    margin: 0 0 15px 15px;
 }
 
 
