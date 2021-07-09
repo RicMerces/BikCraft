@@ -208,6 +208,18 @@ nav ul li a:hover{
     color: #ffff;
 }
 
+/* Portfolio */
+
+.Portfolio{
+    background-color: #000;
+}
+
+.Portfolio .secundary{
+    color: #FFC00C;
+}
+.Portfolio .secundary:after{
+    background: #FFC00C;
+}
 
 
 
