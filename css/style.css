@@ -11,6 +11,7 @@
     width: 100%;
     background: #FFC00C;
     padding: 15px 0;
+    z-index: 10;
     
 }
 nav{
@@ -178,6 +179,33 @@ nav ul li a:hover{
     height:200px;
     width: 100%;
     padding: 35px;
+}
+
+
+.products .AreaDeAcesso {
+    text-align: center;
+}
+
+.products .AreaDeAcesso p{
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: -10px;
+}
+
+.products .AreaDeAcesso .btn{
+    background:none;
+    border:3px #FFC00C solid;
+    height: 50px;
+    width: 150px;
+    color: #FFC00C;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.products .AreaDeAcesso .btn:hover{
+    background:#FFC00C;
+    color: #ffff;
 }
 
 
