@@ -39,7 +39,7 @@ nav ul li a:hover{
 /* Section Banner inicial */
 
 .home{
-    position:relative;
+    
     background: url("../IMG/Banner/Banner-inicial.jpg") no-repeat center;
     width: 100%;
     height: 380px;
@@ -112,3 +112,74 @@ nav ul li a:hover{
     border:3px #FFF solid;
    
 }
+
+
+
+/* Produtos */
+
+.secundary{
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 60px auto;
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+.secundary:after{
+    content: "";
+    background: #000;
+    display: block;
+    max-width: 40px;
+    height: 3px;
+    margin: 3px auto;
+}
+.productsList h3:after{
+    content: "";
+    background: #000;
+    display: block;
+    max-width: 40px;
+    height: 3px;
+    margin: 3px auto 10px;
+}
+
+.productsList{
+    display: inline-block;
+}
+.productsList .divisor{
+    background: #FFC00C;
+    width: 100%;
+    padding: 30px;
+    height: 120px;
+}
+
+.productsList h3{
+    margin-top: -10px;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.productsList .divisor p{
+    color: #000;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    
+}
+
+.productsList .Bik img{
+    margin-bottom: -10px;
+    background: #000;
+    text-align: center;
+    height:200px;
+    width: 100%;
+    padding: 35px;
+}
+
+
+
+
