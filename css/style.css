@@ -294,9 +294,15 @@ nav ul li a:hover{
     color: #fff;
 }
 
+.motivacional cite{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  
+}
 .motivacional blockquote{
     width: 400px;
-    margin: 60px auto;
+    margin: 50px auto 0;
 }
 
 .motivacional blockquote ::after{
@@ -320,16 +326,50 @@ nav ul li a:hover{
 
 /* Footer */
 
-footer{
+.footer{
     background: #000;
     width: 100%;
     color: #fff;
     padding: 20px 0;
 }
 
-footer h3:{
-    font-size: 18px;
+
+
+
+.footer h3{
+    font-size: 20px;
     line-height: 25px;
     text-transform: uppercase;
     color: #FFC00C;
+    font-weight: bold;
+}
+
+.footer h3::after{
+    content: "";
+    background: #FFC00C;
+    height: 3px;
+    width: 50px;
+    display: block;
+    margin: 2px 0 10px 0;
+}
+
+.footerHistoria{
+    padding-right: 40px;
+    
+}
+.footerContato ul li{
+    line-height: 20px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footerRedes ul li{
+    display: inline-block ;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.credits{
+    background: #FFC00C;
+    width: 100%;
+    padding: 10px;
 }
