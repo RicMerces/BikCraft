@@ -239,12 +239,25 @@ nav ul li a:hover{
     margin-bottom: 30px;
 }
 
+.qualidade::after{
+    content: "";
+    height: 634px;
+    width: 100%;
+    display: block;
+    background: url(../IMG/icons/Linhas.svg) no-repeat;
+    position: relative;
+    top: -310px;
+    right: -222px;
+    z-index: -20;
+}
+
 .qualidade img{
     margin: 0 auto;
+    width: 193px;
 }
 
 .qualidade .AreaDeTexto ul{
-    padding: 60px 0 90px 0;
+    padding: 90px 0 90px 0;
     text-align: center;
 }
 
@@ -260,5 +273,5 @@ nav ul li a:hover{
     display: block;
     max-width: 40px;
     height: 3px;
-    margin: 3px auto 10px;    
+    margin: 3px auto 10px;
 }
