@@ -2,6 +2,9 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+    display: block;
+}
 
 /* Cabeçalho */
 
@@ -45,7 +48,7 @@ nav ul li a:hover{
     width: 100%;
     height: 380px;
     background-size: cover;
-    margin-top: 96px;
+    margin-top: 92px;
     text-align: center;
     color: #fff;
     padding-top: 80px;
@@ -125,6 +128,7 @@ nav ul li a:hover{
     margin: 60px auto;
     text-align: center;
     letter-spacing: .1em;
+    text-transform: uppercase;
 }
 
 .secundary:after{
@@ -215,6 +219,7 @@ nav ul li a:hover{
     margin-top: 60px;
     background-color: #000;
     color: #fff;
+    padding-bottom: 30px;
 }
 
 .Portfolio .secundary{
@@ -228,5 +233,16 @@ nav ul li a:hover{
     margin: 0 0 15px 15px;
 }
 
+/* Qualidade */
 
+.qualidade{
+    margin-bottom: 30px;
+}
 
+.qualidade img{
+    margin: 0 auto;
+}
+
+.qualidade .AreaDeAcesso p{
+    margin-top: 0px;
+} 
