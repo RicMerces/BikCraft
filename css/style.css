@@ -373,3 +373,34 @@ nav ul li a:hover{
     width: 100%;
     padding: 10px;
 }
+
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Sobre */
+/* Banner */
+
+.banner{
+    background: url(../IMG/Banner/bg02.jpg) no-repeat center;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    margin-top: 92px;
+    color: #fff;
+}
+
+.banner h1{
+    
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.banner h1::after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 60px;
+    height: 3px;
+    margin: 2px auto 3px;
+}
