@@ -385,10 +385,13 @@ nav ul li a:hover{
 }
 
 
-
-.banner{ 
-    position: fixed;
+.bannerSobre{
     background: url(../IMG/Banner/bg04.jpg) no-repeat center;
+}
+
+.bannerSobre, .bannerProdutos{ 
+    position: fixed;
+    
     height: 150px;
     width: 100%;
     text-align: center;
@@ -398,14 +401,14 @@ nav ul li a:hover{
     z-index: 10;
 }
 
-.banner h1{
+.bannerSobre h1, .bannerProdutos h1{
     
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 30px;
 }
-.banner h1::after{
+.bannerSobre h1::after, .bannerProdutos h1::after{
     content: "";
     display: block;
     background-color: #fff;
@@ -457,4 +460,11 @@ nav ul li a:hover{
     top: -290px;
     right: -222px;
     z-index: -20;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* Produtos */
+
+.bannerProdutos{
+    background: url(../IMG/Banner/bg03.jpg) no-repeat center;
 }
