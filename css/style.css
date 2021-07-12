@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 img{
@@ -246,7 +247,7 @@ nav ul li a:hover{
     display: block;
     background: url(../IMG/icons/Linhas.svg) no-repeat;
     position: relative;
-    top: -310px;
+    top: -400px;
     right: -222px;
     z-index: -20;
 }
@@ -379,15 +380,22 @@ nav ul li a:hover{
 
 /* Sobre */
 /* Banner */
+.sobre{
+    margin-top: -60px;
+}
 
-.banner{
-    background: url(../IMG/Banner/bg02.jpg) no-repeat center;
-    height: 200px;
+
+
+.banner{ 
+    position: fixed;
+    background: url(../IMG/Banner/bg04.jpg) no-repeat center;
+    height: 150px;
     width: 100%;
     text-align: center;
-    margin-top: 92px;
+    margin-top: 90px;
     color: #fff;
-    margin-bottom: 60px;
+    
+    z-index: 10;
 }
 
 .banner h1{
@@ -395,7 +403,7 @@ nav ul li a:hover{
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .banner h1::after{
     content: "";
@@ -407,19 +415,46 @@ nav ul li a:hover{
 }
 
 .vv{
-    padding: 0 50px;
+    margin-top: 300px;
+    padding: 0 30px;
     line-height: 20px;
 }
-.vv p{
-    margin-bottom: 5px;
+.vv p, .vv ul li{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .vv h2{
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.vv h2::after{
+    content: "";
+    background: #000;
+    height: 3px;
+    width: 40px;
+    display: block;
+    margin: 10px 0;   
 }
 
 .infos{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.bg img{
+    margin: 0 auto 40px;
+}
+
+.sobre .qualidade::after{
+    content: "";
+    height: 80px;
+    width: 100%;
+    display: block;
+    background: url(../IMG/icons/Linhas.svg) no-repeat;
+    position: relative;
+    top: -290px;
+    right: -222px;
+    z-index: -20;
 }
