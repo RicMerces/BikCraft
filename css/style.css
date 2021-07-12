@@ -387,6 +387,7 @@ nav ul li a:hover{
     text-align: center;
     margin-top: 92px;
     color: #fff;
+    margin-bottom: 60px;
 }
 
 .banner h1{
@@ -403,4 +404,22 @@ nav ul li a:hover{
     width: 60px;
     height: 3px;
     margin: 2px auto 3px;
+}
+
+.vv{
+    padding: 0 50px;
+    line-height: 20px;
+}
+.vv p{
+    margin-bottom: 5px;
+}
+
+.vv h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.infos{
+    margin-bottom: 60px;
 }
