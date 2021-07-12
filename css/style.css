@@ -468,3 +468,12 @@ nav ul li a:hover{
 .bannerProdutos{
     background: url(../IMG/Banner/bg03.jpg) no-repeat center;
 }
+
+.ProductPasseio{
+    margin-top: 250px;
+}
+
+.ProductPasseio ul li{
+    display: inline-block;
+    margin:10px
+}
