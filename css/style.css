@@ -470,10 +470,42 @@ nav ul li a:hover{
 }
 
 .ProductPasseio{
-    margin-top: 250px;
+    margin-top: 300px;
+    margin-bottom: 60px;
 }
 
-.ProductPasseio ul li{
-    display: inline-block;
-    margin:10px
+.ProductPasseio .passeiopt2 {
+    background: #000;
+    height: 280px;
+    padding: 50px;
+  
+}
+.ProductPasseio .passeiopt2 img{
+    margin: 30px auto;
+}
+
+.ProductPasseio .passeiopt4, .ProductPasseio .passeiopt3{
+    margin-top: 20px;
+}
+
+.ProductPasseio .passeiopt4{
+    background: #000;
+    color: #fff;
+    height: 280px;
+}
+.ProductPasseio .passeiopt4 p{
+    padding: 30px;
+}
+.ProductPasseio .passeiopt4 table{
+    margin-top: 102px;
+    background: #FFC00C;
+    color: #000;
+    width: 100%;
+}
+.ProductPasseio .passeiopt4 table h4{
+    text-align: center;
+    font-weight: bold;
+}
+.ProductPasseio .passeiopt4 table td{
+    border: #000 solid 2px;
 }
