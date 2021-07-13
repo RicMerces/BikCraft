@@ -390,8 +390,6 @@ nav ul li a:hover{
 }
 
 .bannerSobre, .bannerProdutos{ 
-    position: fixed;
-    
     height: 150px;
     width: 100%;
     text-align: center;
@@ -418,7 +416,7 @@ nav ul li a:hover{
 }
 
 .vv{
-    margin-top: 300px;
+    margin-top: 60px;
     padding: 0 30px;
     line-height: 20px;
 }
@@ -468,10 +466,11 @@ nav ul li a:hover{
 .bannerProdutos{
     background: url(../IMG/Banner/bg03.jpg) no-repeat center;
     background-size: cover;
+    margin-bottom: 60px;
 }
 
 .TheProduct{
-    margin-top: 300px;
+    
     margin-bottom: 60px;
     
 }
