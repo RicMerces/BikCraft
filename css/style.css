@@ -656,9 +656,41 @@ nav ul li a:hover{
     background: url(../IMG/Banner/bg05.jpg) no-repeat center;
 }
 
+.ThisIsBikcraft{
+    height: 215px;
+    
+}
+
+.ThisIsBikcraft blockquote{
+    text-align: center;
+    height: 140px;
+    width: 470px;
+    margin:60px auto 0;
+    
+}
+.ThisIsBikcraft blockquote p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.ThisIsBikcraft blockquote cite{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+    float: right;
+    margin-top: 10px;
+}
+
+#ajustesPage{
+    margin-top: -10px;
+}
+
 /* ----------------------------------------------------------------------------------------------------------- */
 /* Contato */
 
-#bannerContato{
+bannerContato{
     background: url(../IMG/Banner/bg02.jpg) no-repeat center;
 }
+
