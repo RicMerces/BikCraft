@@ -235,10 +235,6 @@ nav ul li a:hover{
 
 /* Qualidade */
 
-.qualidade{
-    margin-bottom: 30px;
-}
-
 .qualidade::after{
     content: "";
     height: 80px;
@@ -246,7 +242,7 @@ nav ul li a:hover{
     display: block;
     background: url(../IMG/icons/Linhas.svg) no-repeat;
     position: relative;
-    top: -400px;
+    top: -310px;
     right: -222px;
     z-index: -20;
 }
@@ -257,7 +253,7 @@ nav ul li a:hover{
 }
 
 .qualidade .AreaDeTexto ul{
-    padding: 90px 0 90px 0;
+    padding: 90px 0  0;
     text-align: center;
 }
 
@@ -415,16 +411,17 @@ nav ul li a:hover{
 
 .vv{
     margin-top: 60px;
-    padding: 0 30px;
+    
     line-height: 20px;
 }
 .vv p, .vv ul li{
+    font-size: 18px;
     margin-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .vv h2{
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -443,7 +440,7 @@ nav ul li a:hover{
 }
 
 .bg img{
-    margin: 0 auto 40px;
+    margin: 0 auto ;
 }
 
 .sobre .qualidade::after{
@@ -453,7 +450,7 @@ nav ul li a:hover{
     display: block;
     background: url(../IMG/icons/Linhas.svg) no-repeat;
     position: relative;
-    top: -290px;
+    top: -200px;
     right: -222px;
     z-index: -20;
 }
@@ -755,3 +752,7 @@ nav ul li a:hover{
     margin-left: 2px;
 }
 
+
+.map{
+    margin-bottom: 40px;
+}
