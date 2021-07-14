@@ -715,7 +715,7 @@ nav ul li a:hover{
 }
 
 
-.GerarOrcamento input, .GerarOrcamento textarea{
+.white .GerarOrcamento input, .white .GerarOrcamento textarea{
     width: 400px;
     background: none;
     border: #FFC00C solid 4px;
@@ -726,7 +726,7 @@ nav ul li a:hover{
     display: block;
 }
 
-.GerarOrcamento .btn {
+.white .GerarOrcamento .btn {
     width: 150px;
     height: 40px;
     color: #FFC00C;
@@ -738,20 +738,12 @@ nav ul li a:hover{
     border: #FFC00C solid 3px; 
     cursor: pointer;
 }
-
-.GerarOrcamento .btn:hover{
-    background: #FFC00C;
+.white .GerarOrcamento .btn:hover {
     color: #fff;
 }
 
-.DadosOrcamento span{
-    color: #FFC00C;
-    display: block;
-    font-weight: bold;
-    font-size: 18px;
-}
 
-.DadosOrcamento ul li{
+.white .DadosOrcamento ul li{
     color: #000;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
