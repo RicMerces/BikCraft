@@ -157,6 +157,7 @@ nav ul li a:hover{
     width: 100%;
     padding: 30px;
     height: 120px;
+    overflow-y: hidden;
 }
 
 .productsList h3{
@@ -174,6 +175,7 @@ nav ul li a:hover{
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+    
     
 }
 
