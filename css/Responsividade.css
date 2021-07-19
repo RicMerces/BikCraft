@@ -1,0 +1,122 @@
+
+/* Tablets/Ipads */
+@media only screen and (min-width: 788px) and (max-width: 979px){
+
+    /* Sibre */
+    .qualidade::after{
+        content: "";
+        height: 80px;
+        width: 100%;
+        display: block;
+        background: url(../IMG/icons/Linhas.svg) no-repeat;
+        position: relative;
+        top: -330px;
+        right: -126px;
+        z-index: -20;
+    }
+
+    .sobre .qualidade::after{
+        content: "";
+        height: 80px;
+        width: 100%;
+        display: block;
+        background: url(../IMG/icons/Linhas.svg) no-repeat;
+        position: relative;
+        top: -222px;
+        right: -126px;
+        z-index: -20;
+    }
+
+
+
+    /* Portfolio */
+    .Portfolio ul li img{
+        height: 210px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 787px){
+    
+    /* Cabeçalho */
+    .header{
+        position: relative;
+        width: 100%;
+    }
+
+    .header img{
+        margin: 0 auto;
+        
+    }
+
+    /* Barra de navegação */
+    .navigation_bar{
+        text-align: center;
+    }
+
+    .navigation_bar ul{
+        margin-left: -40px;
+    }
+
+
+    .navigation_bar ul li{
+        margin: 2px;
+        
+    }
+    
+    .navigation_bar ul li a{
+        color: #000;
+        border: 4px solid #000;
+        width: 260px;
+        display: block;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 0;
+    }
+
+    .navigation_bar ul li a:hover{
+       background-color: #fff;
+       color: #FFC00C;
+       border: 4px solid #fff;
+    }
+
+    .home{
+        overflow-y:hidden ;
+        margin-top: 0;
+        padding-top: 5px;
+    }
+    
+
+
+    /* Qualidade */
+    .qualidade{
+        margin-bottom: 40px;
+    }
+    
+    .qualidade::after{
+        content: none;
+    }
+
+    .sobre .qualidade::after{
+        content: none;
+    }
+
+    .qualidade img{
+        margin: 0 auto -50px;
+        width: 193px;
+    }
+    
+
+
+    /* Motivacional */
+    
+
+
+}
