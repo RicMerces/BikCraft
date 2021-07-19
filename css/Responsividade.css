@@ -35,6 +35,26 @@
         margin: 0 auto;
     }
 
+    
+    /* Produtos */
+    
+
+    .InfoProduct{
+        background: #000;
+    }
+    .InfoProduct p{
+       
+        font-size: 14px;
+        padding: 20px 30px;
+        height: 180px;
+    }
+    
+    .InfoProduct ul li{
+   
+    width: 180px;
+  
+}
+
 
 }
 
@@ -114,9 +134,57 @@
     }
     
 
+    /* Portfolio */
+    .Portfolio ul li img{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
 
     /* Motivacional */
-    
+    .motivacional{
+        background: url(../IMG/Banner/Motivacional.jpg) no-repeat center;
+        width: 100%;
+        height: 200px;
+        display: block;
+        text-align: center;
+    }
+
+    .motivacional blockquote{
+        width: 100%;
+        margin: 40px auto 0;
+    }
+
+
+
+    /* Sobre */
+    /* Banner */
+
+    .banner{ 
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        color: #fff;
+        z-index: 10;
+    }
+
+    /* Valores Visão */
+    .vv h2{
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        line-height: 30px;
+    }
+
+
+    .bg img{
+        width: 100%;
+        margin: 0 auto ;
+    }
+
 
 
 }
