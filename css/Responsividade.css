@@ -61,6 +61,16 @@
     margin-left: 4px;
 }
 
+/* Contato */
+.GerarOrcamento input, .GerarOrcamento textarea,  #FormatacoesBike li, .white .GerarOrcamento input, .white .GerarOrcamento textarea{
+    width: 96%;
+}
+
+.DadosOrcamento ul, .DadosOrcamento span, .DadosOrcamento p{
+    margin-left: 10px;
+}
+
+
 }
 
 
@@ -265,4 +275,43 @@
     margin-left: 2px;
 }
 
+
+
+
+/* Portfolio */
+
+.ThisIsBikcraft{
+    height: 245px;
+    overflow-y: hidden;
+}
+
+
+.ThisIsBikcraft blockquote{
+    text-align: center;
+    height: 240px;
+    width: 100%;
+    margin:60px auto 0;
+    overflow-y: hidden;
+}
+
+    .ThisIsBikcraft blockquote p{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 25px;
+}
+
+
+    /* Contato */
+    .GerarOrcamento input, .GerarOrcamento textarea,  #FormatacoesBike li, .white .GerarOrcamento input, .white .GerarOrcamento textarea{
+        width: 96%;
+    }
+
+    .DadosOrcamento ul, .DadosOrcamento span, .DadosOrcamento p{
+        margin-left: 10px;
+    }
+   
+  
+    
+    
 }
