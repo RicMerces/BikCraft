@@ -655,26 +655,23 @@ nav ul li a:hover{
     background: url(../IMG/Banner/bg05.jpg) no-repeat center;
 }
 
-.ThisIsBikcraft{
-    height: 215px;
-    
-}
 
-.ThisIsBikcraft blockquote{
+
+.ThisIsBikcraft {
     text-align: center;
     height: 140px;
     width: 470px;
     margin:60px auto 0;
     
 }
-.ThisIsBikcraft blockquote p{
+.ThisIsBikcraft p{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     line-height: 25px;
 }
 
-.ThisIsBikcraft blockquote cite{
+.ThisIsBikcraft  cite{
     font-weight: bold;
     font-style: normal;
     text-align: right;
@@ -758,3 +755,21 @@ nav ul li a:hover{
 .map{
     margin-bottom: 40px;
 }
+
+
+/* Script css */
+
+[data-slide] {
+    position: relative;
+  }
+  [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+  }
+  [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+  }

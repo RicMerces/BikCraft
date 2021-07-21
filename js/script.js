@@ -1,7 +1,4 @@
 new SimpleSlide({
-    slide: "Principal", //Atributo data-slide="PRINCIPAL",
-    nav: true,
-    auto: true,
+    slide: "quote", //Atributo data-slide="ThisIsBikcraft",
     time: 5000
-
 });

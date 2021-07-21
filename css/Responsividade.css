@@ -280,13 +280,10 @@
 
 /* Portfolio */
 
-.ThisIsBikcraft{
-    height: 245px;
-    overflow-y: hidden;
-}
 
 
-.ThisIsBikcraft blockquote{
+
+    .ThisIsBikcraft{
     text-align: center;
     height: 240px;
     width: 100%;
@@ -294,7 +291,7 @@
     overflow-y: hidden;
 }
 
-    .ThisIsBikcraft blockquote p{
+    .ThisIsBikcraft p{
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
