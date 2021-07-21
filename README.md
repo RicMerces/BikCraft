@@ -12,5 +12,5 @@ Nesse Projeto me inspirei nas aulas, porem tentei fazer a interface usando meus 
 - Construir o layout ☑️
 - Usando o Adobe XD construir o prototipo ☑️
 - Construir toddas as paginas estaticas na Web com HTML e CSS ☑️
-- Tornar a pagina Responsiva  
+- Tornar a pagina Responsiva ☑️  
 - Tornar as paginas mais dinamicas com JS 
