@@ -773,3 +773,30 @@ nav ul li a:hover{
     transition: opacity 500ms;
     z-index: 1;
   }
+
+  [data-slide-nav]{
+    text-align: center;
+    display: block;
+    border-radius: 30px;
+    margin-top: 15px;
+  }
+  [data-slide-nav] button{
+    display: inline-block;
+    margin: 5px;
+    background: #fff;
+    border-radius: 30px;
+    border: solid 3px #fff;
+    color: #FFF;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+  }
+  [data-slide-nav] .active {
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+    background: #FFC00C;
+    border-radius: 30px;
+    border: solid 3px #FFC00C;
+    color: #FFC00C;
+  }
